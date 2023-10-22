@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body {
+  display: flex;
+  background: #021b2b;
+  z-index: 1;
+  user-select: none;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 55px;
+
+  span {
+    color: #198d57;
+  }
+}
+
+.underLine {
+  position: absolute;
+  top: 120px;
+  left: 57.5%;
+  transform: translate(-50%, -50%);
+  height: 4px;
+  width: 460px;
+  background: #198d57;
+}
+
+.button {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #198d57;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 8px 8px 8px #01081aa1;
+  
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+  }
+
+  img {
+    margin-left: 10px;
+    margin-right: 6px;
+    margin-top: 20px;
+    height: 45px;
+    width: 45px;
+    color: #FFF;
+  }
+}
+
+.button:active {
+  background: #1da566;
+}
+
+
+.password {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  height: 80px;
+  width: 65vh;
+  background: #e0ffea; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  
+  img {
+    margin-right: 10px;
+    height: 50px;
+    width: 50px; 
+  }
+
+  p {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    user-select: text;
+  }
+}
+
+
+.container {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 470px;
+    
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  .symbolsNumber {
+    height: 30px;
+    width: 40px;
+    font-size: 24px;
+    margin-right: 0px;
+    /*background: #e0ffea; */
+  }
+
+  p {
+    margin-bottom: 25px;
+    margin-right: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #FFF;
+  }
+
+  input {
+    height: 30px;
+    width: 30px;
+    outline: none;
+  }
+}
